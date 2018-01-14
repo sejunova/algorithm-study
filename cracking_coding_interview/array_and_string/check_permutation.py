@@ -35,7 +35,7 @@ def check_permutation3(one, other):
     '''
     removed unnecessary redundancy from check_permutation solution by checking
     whether there is a char used in other not used in one or more used that one.
-    Also Space complexity reduced by half as I made only one dict to hold only one string.
+    Also Space complexity reduced by half as I made only one dict to hold only one s
     '''
     if len(one) != len(other): return False
     chars = {}
